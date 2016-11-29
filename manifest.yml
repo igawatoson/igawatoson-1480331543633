@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: igawatoson
+  host: igawatoson
+  disk_quota: 1024M
+  services:
+  - igawatoson-cloudantNoSQLDB
+  - AlchemyAPI-e4
+  - Personality Insights-9u
+  - availability-monitoring-auto
